@@ -22,7 +22,6 @@ import com.gustavoribeiro.cursomc.repositories.EnderecoRepository;
 import com.gustavoribeiro.cursomc.repositories.EstadoRepository;
 import com.gustavoribeiro.cursomc.repositories.ProdutoRepository;
 
-@SpringBootApplication
 public class CursomcApplication implements CommandLineRunner {
 	
 	@Autowired
