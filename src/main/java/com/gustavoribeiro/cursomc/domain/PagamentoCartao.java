@@ -1,7 +1,10 @@
 package com.gustavoribeiro.cursomc.domain;
 
+import javax.persistence.Entity;
+
 import com.gustavoribeiro.cursomc.domain.enums.EstadoPagamento;
 
+@Entity
 public class PagamentoCartao extends Pagamento{
 
 
